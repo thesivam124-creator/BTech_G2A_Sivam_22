@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdio.h>
+
 int main() {
     printf("enter the number of the month:");
     int a;
@@ -36,4 +36,5 @@ int main() {
 
     }
 }
+
 
