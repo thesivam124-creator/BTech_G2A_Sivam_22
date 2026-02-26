@@ -21,10 +21,10 @@ int main() {
               printf("this month as 30 days ");
               break;
         case 2:
-              int b;
+              int Year;
               printf("ënter the year:");
-              scanf("%d",&b);
-              if(b%400==0) {
+              scanf("%d",&Year);
+              if(Year % 4 == 0 && Year % 100 != 0) {
                 printf("this month has 29 days");
               }
               else {
@@ -38,3 +38,7 @@ int main() {
 }
 
 
+
+
+
+              
